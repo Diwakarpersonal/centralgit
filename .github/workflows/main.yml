@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: runs-on:self-hosted
+    runs-on: self-hosted
 
     steps:
     - name: Print Hello World
